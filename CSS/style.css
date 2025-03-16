@@ -1,6 +1,43 @@
-*{
-    background-color:#fffbff;
-    padding: 0;
+* {
+    padding: ;
+    margin: 0;
+
+}
+body{
+    font-family: Arial, sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+#foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.cabecalho h1 {
     margin: 0;
 }
 
+.cabecalho .descricao {
+    margin-top: 5px;
+}
+.redes img{
+    width: 1.5rem;
+
+}
+.rede{
+    display: flex;
+}
