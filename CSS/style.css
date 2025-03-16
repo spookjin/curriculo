@@ -1,23 +1,27 @@
-* {
-    padding: ;
-    margin: 0;
 
+*{
+    margin: 1;
+    padding: 1;
 }
-body{
+
+body {
     font-family: Arial, sans-serif;
-}
-ul{
-    list-style: none;
+    background-color: #f4f4f4;
 }
 
+ul {
+    list-style: none;
+
+}
 .cabecalho {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-
-
-
+    background: linear-gradient(90deg, rgba(135,17,193,1) 0%, rgba(0,0,0,1) 35%, rgba(36,114,252,1) 100%);
+    color: white;
+    padding: 20px 0;
+    border-radius: 1rem;
 }
 
 #foto {
@@ -25,19 +29,68 @@ ul{
     height: 150px;
     border-radius: 50%;
     margin-bottom: 15px;
+    border: 3px solid white;
 }
 
 .cabecalho h1 {
-    margin: 0;
+    font-size: 1.8rem;
+    margin: 5px 0;
+
 }
 
 .cabecalho .descricao {
+    font-size: 1rem;
     margin-top: 5px;
 }
-.redes img{
-    width: 1.5rem;
 
+.conteudo {
+    width: 90%;
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.rede{
-    display: flex;
+
+h2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.contato {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.contato img {
+    width: 20px;
+    margin-left: 5px;
+    display: inline-flex;
+}
+
+.redes {
+    margin: 0.3rem;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.redes a {
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.redes a:hover {
+    transform: scale(1.1);
+}
+
+.redes img {
+    width: 30px;
+    height: 30px;
+}
+.habilidades, .idiomas, .experiencias {
+    font-size: 1rem;
 }
